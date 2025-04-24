@@ -1,0 +1,22 @@
+var empresa = {
+  nome: "ABC Corp",
+  endereco: {
+    rua: "Rua das Flores",
+    numero: 123,
+    cidade: "Cidade Grande",
+    estado: "Estado A"
+  },
+  funcionarios: {
+    total: 50,
+    departamento: {
+      nome: "RH",
+      responsavel: "João Silva",
+      telefone: "123456789"
+    }
+    
+  }
+  
+  
+};
+
+console.log(empresa.funcionarios.departamento.telefone);
