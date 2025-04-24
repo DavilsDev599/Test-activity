@@ -1,0 +1,32 @@
+<DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+   <form id="meuForm">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="telefone">Telefone:</label><br>
+  <input type="tel" id="telefone" name="telefone"><br>
+  <input type="button" value="Enviar" onclick="exibirValores()">
+</form>
+  <script>
+     function exibirValores(){
+     let nome=document.getElementById("nome").value;
+     let email=document.getElementById("email").value;
+     let telefone=document.getElementById("telefone").value;
+       console.log("Nome"${nome});
+       console.log("Nome"${email});
+       console.log("Nome"${telefone});
+       
+     }
+      
+  </script>
+</body>
+</html>
+
